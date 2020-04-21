@@ -1,0 +1,47 @@
+$gray-1: #f3f3f3;
+$gray-2: #bfc0c0;
+$gray-3: #b8b6b6;
+$gray-5: #858585;
+$gray-6: #707070;
+$gray-7: #555758;
+$gray-8: #252525;
+
+$blue: #00bae2;
+$green: #03c0aa;
+
+// Fonts
+$font-family-base: 'Poppins', sans-serif;
+
+$font-size-base: 16px;
+$font-weight-base: 400;
+$line-height-base: 1.67;
+
+// Typography
+$headings-margin-bottom: 2vw;
+
+$paragraph-margin-bottom: 1vw;
+
+$link-color: $blue;
+$link-hover-color: $green;
+
+// Headings
+$headings-margin-bottom: 20px;
+$headings-font-weight: 600;
+$headings-line-height: 1.4;
+$headings-color: $gray-8;
+
+$h1-font-size: vw-sm(100px);
+$h2-font-size: vw-sm(76px);
+$h3-font-size: 50px;
+$h4-font-size: 36px;
+$h5-font-size: 30px;
+$h6-font-size: 24px;
+
+$h1-font-size-lg: vw-lg(160px);
+$h2-font-size-lg: vw-lg(100px);
+$h3-font-size-lg: vw-lg(50px);
+$h4-font-size-lg: vw-lg(36px);
+$h5-font-size-lg: vw-lg(30px);
+$h6-font-size-lg: vw-lg(24px);
+// Forms
+$label-margin-bottom: 1vw;
