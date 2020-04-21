@@ -6,6 +6,7 @@ html{
 }
 body{
     position: relative;
+    min-width: 320px;
 }
 .site-header{
     position: absolute;
@@ -13,10 +14,8 @@ body{
     right: 0;
     top: 0;
     width: 100%;
-    padding: 20px;
-    .logo-img{
-	width: rem(300px);
-    }
+    padding: 15px;
+
     .inner-wrap{
 	max-width: 1700px;
 	margin-left: auto;
@@ -47,11 +46,13 @@ body{
 	    }
 	}
 	li+li{
-	    margin-left: rem(30px);
+	    margin-left: 7px;
 	}
     }
 }
 .banner{
     background-size: cover;
-    background-position: 50%;
+    background-position: left top;
+    min-height: 93vw;
+    background-image: url(../img/main-banner-sm.jpg);
 }

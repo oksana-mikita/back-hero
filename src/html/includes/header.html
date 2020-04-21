@@ -13,7 +13,11 @@
 	<header class="site-header">
 	    <div class="inner-wrap">
 		<div class="logo">
-		    <img src="img/main-logo.png" class="logo-img" alt="<%=title%>" />
+		    <picture>
+			<source media="(max-width: 767px)" srcset="./img/main-logo-sm.png, ./img/main-logo.png 2x">
+			<source media="(min-width: 768px)" srcset="./img/main-logo.png">
+			<img src="./img/main-logo.png" class="logo-img" alt="<%=title%>" />
+		    </picture>
 		</div>
 		<div class="nav">
 		    <ul>

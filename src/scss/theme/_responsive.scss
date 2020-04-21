@@ -15,7 +15,11 @@
 	flex: 0 0 50%;
 	max-width: 50%;
     }
+    .logo-img{
+	width: rem(300px);
+    }
     .banner{
+	background-position: 50%;
 	min-height: rem(555px);
 	background-image: url(../img/main-banner-md.jpg);
     }
