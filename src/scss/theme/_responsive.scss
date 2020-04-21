@@ -7,6 +7,9 @@
     html{
 	font-size: 17px;
     }
+    h1, .h1 { font-size:$h1-font-size-lg; }
+    h2, .h2 { font-size:$h2-font-size-lg; }
+    h3, .h3 { font-size:$h3-font-size-lg; }
     .container {
 	max-width: 720px;
     }

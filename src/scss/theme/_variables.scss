@@ -26,12 +26,17 @@ $headings-font-weight: 300;
 $headings-line-height: 1.1;
 $headings-color: $blue;
 
-$h1-font-size: rem(100px);
-$h2-font-size: rem(100px);
+$h1-font-size: rem(70px);
+$h2-font-size: rem(70px);
 $h3-font-size: rem(55px);
 $h4-font-size: rem(33px);
 $h5-font-size: rem(28px);
 $h6-font-size: rem(24px);
+
+$h1-font-size-lg: vw-lg(100px);
+$h2-font-size-lg: vw-lg(100px);
+$h3-font-size-lg: vw-lg(55px);
+
 
 // Forms
 $label-margin-bottom: 1vw;
