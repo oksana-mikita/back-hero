@@ -6,13 +6,13 @@ $green: #0bcb8e;
 
 // Fonts
 $font-family-base: 'Open Sans', sans-serif;
+$font-family-secondary: 'Tungsten Rounded', sans-serif;
 
 $font-size-base: 1rem;
 $font-weight-base: 400;
 $line-height-base: 1.5;
 
 // Typography
-$headings-margin-bottom: 1rem;
 
 $paragraph-margin-bottom: 1rem;
 
@@ -20,10 +20,11 @@ $link-color: $blue;
 $link-hover-color: $green;
 
 // Headings
-$headings-margin-bottom: 20px;
-$headings-font-weight: 600;
+$headings-font-fdamily: $font-family-secondary;
+$headings-margin-bottom: 1rem;
+$headings-font-weight: 300;
 $headings-line-height: 1.4;
-$headings-color: $gray-1;
+$headings-color: $blue;
 
 $h1-font-size: rem(100px);
 $h2-font-size: rem(100px);
