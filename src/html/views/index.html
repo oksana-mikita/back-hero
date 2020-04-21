@@ -4,7 +4,21 @@ ver: "1.05",
 }; %>
 <%= _.template(require('./../includes/header.html').default)(data) %>
 <section class="banner">
-    
+    <div class="banner-block">
+	<div class="content">
+	    <div class="inner">
+		<h3>BackHero X</h3>
+		<p>Posture Corrector</p>
+	    </div>
+	</div>
+	<div class="picture">
+	    <picture>
+		<source  type="image/png"  media="(max-width: 767px)" srcset="./img/back-hero-sm.png, ./img/back-hero.png 2x">
+		<source  type="image/png"  media="(min-width: 768px)" srcset="./img/back-hero.png">
+		<img src="./img/back-hero.png" alt="Back Hero" />
+	    </picture>
+	</div>
+    </div>
 </section>
 <section>
     <div class="container">
