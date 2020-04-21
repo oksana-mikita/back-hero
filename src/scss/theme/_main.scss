@@ -1,3 +1,57 @@
 html{
     font-size: 16px;
 }
+.text-center{
+    text-align: center;
+}
+body{
+    position: relative;
+}
+.site-header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    .logo-img{
+	width: rem(300px);
+    }
+    .inner-wrap{
+	max-width: 1700px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    }
+    .nav{
+	ul{
+	    list-style: none;
+	    padding: 0;
+	    margin: 0;
+	}
+	li{
+	    display: inline-block;
+	    a{
+		font-family: $font-family-secondary;
+		text-transform: uppercase;
+		color: $black;
+		font-size: rem(26px);
+	    }
+	    &:hover,
+		&.active{
+		a{
+		    color: $blue;
+		}
+	    }
+	}
+	li+li{
+	    margin-left: rem(30px);
+	}
+    }
+}
+.banner{
+    background-size: cover;
+    background-position: 50%;
+}
