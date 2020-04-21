@@ -48,7 +48,6 @@ html{
     }
 }
 .banner{
-    margin-bottom: 2rem;
     background-size: cover;
     background-position: left top;
     min-height: 93vw;
@@ -72,5 +71,28 @@ html{
     }
     p{
 	margin: 0;
+    }
+}
+.content-section{
+    padding: 3rem 0;
+}
+.blue-rounded{
+    padding-top: rem(70px);
+    padding-bottom: rem(70px);
+    background-color: #e8f7fd;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: rem(50px);
+    .col-content{
+
+    }
+    .sub-heading{
+	margin-bottom: 0;
+	color: #000;
+	text-transform: uppercase;
+    }
+    h2{
+	line-height: 1;
     }
 }
