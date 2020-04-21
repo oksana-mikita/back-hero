@@ -39,6 +39,9 @@
 	    max-width: 45vw;
 	}
     }
+    .benefits{
+	background-image: url(../img/benefits-md.jpg);
+    }
 }
 @media (min-width: 992px){
     html{
@@ -97,6 +100,9 @@
     .banner{
 	min-height: rem(818px);
 	background-image: url(../img/main-banner.jpg);
+    }
+    .benefits{
+	background-image: url(../img/benefits-bg.jpg);
     }
 }
 
