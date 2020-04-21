@@ -4,14 +4,6 @@ html{
 .text-center{
     text-align: center;
 }
-body{
-    position: relative;
-    min-width: 320px;
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
 .site-header{
     position: absolute;
     z-index: 100;
@@ -80,8 +72,5 @@ img {
     }
     p{
 	margin: 0;
-    }
-    .picture{
-	//max-width: 34vw;
     }
 }
