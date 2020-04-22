@@ -297,8 +297,8 @@ html{
 }
 .stages{
     background: #4cc0ee;
-    .row{
-	justify-content: space-around;
+    .col-stage{
+	flex: 0 0 100%;
     }
 }
 .stage{

@@ -68,6 +68,19 @@
     .reverse{
 	flex-direction: row-reverse;
     }
+    .stages{
+	.row{
+	    justify-content: center;
+	}
+	.col-stage{
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	    .stage{
+		margin-left: auto;
+		margin-right: auto;
+	    }
+	}
+    }
 }
 @media (min-width: 992px){
     html{
@@ -119,6 +132,37 @@
     .review-box{
 	flex: 0 0 30%;
     }
+    .col-stage{
+	flex: 0 0 33.3333%;
+	max-width: 33.3333%;
+    }
+    .col-stage:nth-child(2n){
+	position: relative;
+	&:before,
+	    &:after{
+	    position: absolute;
+	    top: 25%;
+	    content: '';
+	    width: 1px;
+	    height: 55%;
+	    background-color: #83d2ff;
+	}
+	&:before{
+	    left: 0;
+	}
+	&:after{
+	    right: 0;
+	}
+	.stage{
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+    }
+    .col-stage:nth-child(3n){
+	.stage{
+	    margin-left: auto;
+	}
+    }
 }
 @media (min-width: 1280px){
     html{
@@ -147,6 +191,12 @@
 @media (max-width: 767px){
     .shoose-us .col-md-6{
 	margin-bottom: 1.5rem;
+    }
+    .col-stage{
+	.stage{
+	    margin-left: auto;
+	    margin-right: auto;
+	}
     }
 }
 @media (max-width: 575px){
