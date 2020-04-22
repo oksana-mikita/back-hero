@@ -22,3 +22,11 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Tungsten Rounded';
+    src: url('../fonts/TungstenRounded-Medium.woff2') format('woff2'),
+        url('../fonts/TungstenRounded-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
