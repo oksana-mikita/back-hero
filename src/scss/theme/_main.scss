@@ -175,3 +175,23 @@ html{
 	}
     }
 }
+.reviews{
+    background: url(../img/reviews-bg.png) 0 0 repeat;
+    position: relative;
+    &:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: rem(40px 33px 0 33px);
+	border-color: #ffffff transparent transparent transparent;
+
+    }
+    h2{
+	color: #fff;
+    }
+}
