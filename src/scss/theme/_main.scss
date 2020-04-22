@@ -336,3 +336,15 @@ html{
 	transform: translate(-50%, -50%);
     }
 }
+.discover{
+    padding: rem(50px 50px 0);
+    background-color: #edf9fd;
+    .sub-heading{
+	margin-bottom: 0;
+	font-size: rem(32px);
+    }
+    h2{
+	line-height: .7;
+	margin-bottom: 2rem;
+    }
+}

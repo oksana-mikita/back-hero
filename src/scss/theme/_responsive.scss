@@ -72,13 +72,13 @@
 	.row{
 	    justify-content: center;
 	}
-	.col-stage{
-	    flex: 0 0 50%;
-	    max-width: 50%;
-	    .stage{
-		margin-left: auto;
-		margin-right: auto;
-	    }
+    }
+    .col-stage{
+	flex: 0 0 50%;
+	max-width: 50%;
+	.stage{
+	    margin-left: auto;
+	    margin-right: auto;
 	}
     }
 }
@@ -163,6 +163,30 @@
 	    margin-left: auto;
 	}
     }
+    .discover{
+	max-width: 1700px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	height: 580px;
+	padding: rem(0 110px);
+	background: url(../img/discover-md.png) right center no-repeat;
+	background-size: cover;
+	.image{
+	    display: none;
+	}
+	.sub-heading{
+	    margin-bottom: 0;
+	    font-size: rem(42px);
+	}
+	h2{
+	    line-height: .7;
+	    margin-bottom: 2rem;
+	}
+	p{
+	    max-width: 24rem;
+	}
+    }
 }
 @media (min-width: 1280px){
     html{
@@ -186,8 +210,13 @@
 	background-image: url(../img/watch-now.png);
 	padding: rem(125px 0 245px);
     }
+    .discover{
+	background: url(../img/discover.png) right center no-repeat;
+	p{
+	    max-width: rem(715px);
+	}
+    }
 }
-
 @media (max-width: 767px){
     .shoose-us .col-md-6{
 	margin-bottom: 1.5rem;
