@@ -42,13 +42,23 @@
 	    max-width: 45vw;
 	}
     }
+    .sub-heading {
+	font-size: 1.61905rem;
+	margin-bottom: 2rem;
+    }
+    .content-section {
+	padding: 3rem 0;
+    }
     .benefits{
-	background-image: url(../img/benefits-bg-md.jpg);
+	background-image: url(../img/benefits-bg-md.png);
 	margin-top: rem(100px);
 	padding-top: rem(150px);
     }
     .shoose-us{
-	background-image: url(../img/shoose-us-md.jpg);
+	background-image: url(../img/shoose-us-md.png);
+	.row+.row{
+	    margin-top: rem(115px);
+	}
     }
     .reverse{
 	flex-direction: row-reverse;
@@ -116,13 +126,18 @@
 	background-image: url(../img/main-banner.jpg);
     }
     .benefits{
-	background-image: url(../img/benefits-bg.jpg);
+	background-image: url(../img/benefits-bg.png);
     }
     .shoose-us{
-	background-image: url(../img/shoose-us.jpg);
+	background-image: url(../img/shoose-us.png);
     }
 }
 
+@media (max-width: 767px){
+    .shoose-us .col-md-6{
+	margin-bottom: 1.5rem;
+    }
+}
 @media (max-width: 575px){
     .banner-block{
 	.content{
@@ -131,5 +146,11 @@
 		display: inline-block;
 	    }
 	}
+    }
+}
+@media (max-width: 480px){
+    .banner-block{
+	bottom: auto;
+	top: 40px;
     }
 }

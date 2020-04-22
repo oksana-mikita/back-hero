@@ -98,7 +98,7 @@ html{
     }
 }
 .content-section{
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 .blue-rounded{
     padding-top: rem(70px);
@@ -124,10 +124,10 @@ html{
     }
 }
 .benefits{
-    background-color: #e2f9fe;
-    background-image: url(../img/benefits-bg-sm.jpg);
+    background-image: url(../img/benefits-bg-sm.png);
     background-size: cover;
     background-position: top;
+    background-repeat: no-repeat;
     margin-top: 2rem;
     .row{
 	justify-content: space-around;
@@ -152,16 +152,26 @@ html{
 }
 .shoose-us{
     background-color: #e2f9fe;
-    background-image: url(../img/shoose-us-sm.jpg);
+    background-image: url(../img/shoose-us-sm.png);
     background-size: cover;
     background-position: top;
+    background-repeat: no-repeat;
     h4{
 
     }
     .row{
 	justify-content: space-between;
+	align-items: center;
     }
     .content{
 	max-width: rem(510px);
+    }
+    img{
+	border-radius: rem(0px 50px);
+    }
+    .reverse{
+	img{
+	    border-radius: rem(50px 0);
+	}
     }
 }
