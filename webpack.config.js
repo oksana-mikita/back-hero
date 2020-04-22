@@ -27,7 +27,7 @@ const htmlPlugins = generateHtmlPlugins("./src/html/views");
 const config = {
     entry: ["./src/js/index.js", "./src/scss/style.scss"],
     output: {
-	filename: "./js/bundle.js"
+	filename: "./js/main.js"
     },
     devtool: "source-map",
     mode: "production",
@@ -99,12 +99,12 @@ const config = {
 	    'window.jQuery': 'jquery'
 	}),
 	new MiniCssExtractPlugin({
-	    filename: "./css/style.bundle.css"
+	    filename: "./css/style.css"
 	}),
 	new CopyWebpackPlugin([
 	    {
-		from: "./src/js/main.js",
-		to: "./js/main.js"
+		from: "./src/js/jquery.fancybox.min.js",
+		to: "./js/jquery.fancybox.min.js"
 	    },
 	    {
 		from: "./src/fonts",

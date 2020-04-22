@@ -61,6 +61,10 @@
 	    margin-top: rem(115px);
 	}
     }
+    .watch-now{
+	background-image: url(../img/watch-now-md.png);
+	padding: rem(125px 0 245px);
+    }
     .reverse{
 	flex-direction: row-reverse;
     }
@@ -133,6 +137,9 @@
     .shoose-us{
 	background-image: url(../img/shoose-us.png);
 	padding: 0 0 4rem;
+    }
+    .watch-now{
+	background-image: url(../img/watch-now.png);
     }
 }
 

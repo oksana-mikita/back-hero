@@ -245,3 +245,30 @@ html{
 	}
     }
 }
+.watch-now{
+    padding: 2rem 0 3rem;
+    color: #3b3b3b;
+    background-image: url(../img/watch-now-sm.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    .social{
+	list-style: none;
+	padding-left: 0;
+	margin-top: 2rem;
+	li{
+	    display: inline-block;
+	}
+	li+li{
+	    margin-left: rem(13px);
+	}
+	svg{
+	    fill: #2ea2d0;
+	}
+	a:hover{
+	    svg{
+		fill: $blue;
+	    }
+	}
+    }
+}
