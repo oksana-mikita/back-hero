@@ -38,3 +38,17 @@ h6, .h6 { font-size:$h6-font-size; }
     font-size: rem(26px);
     margin-bottom: 1rem;
 }
+.btn{
+    display: inline-block;
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: rem(23px);
+    background-color: #fc8902;
+    padding: 18px 50px;
+    @include hover-focus-active{
+	background-color: #b9690b;
+	color: #fff;
+    }
+}

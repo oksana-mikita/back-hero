@@ -22,6 +22,14 @@
     h2, .h2 { font-size:$h2-font-size-lg; }
     h3, .h3 { font-size:$h3-font-size-lg; }
     h4, .h4 { font-size:$h4-font-size-lg; }
+    .buy{
+	h2{
+	    font-size: rem(72px);
+	}
+	h3{
+	    font-size: rem(48px);
+	}
+    }
     .container {
 	max-width: 720px;
     }
