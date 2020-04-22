@@ -9,6 +9,9 @@
 	    right: -25%;
 	}
     }
+    .benefit-box{
+	flex: 0 0 50%;
+    }
 }
 @media (min-width: 768px){
     html{
@@ -40,7 +43,7 @@
 	}
     }
     .benefits{
-	background-image: url(../img/benefits-md.jpg);
+	background-image: url(../img/benefits-bg-md.jpg);
 	margin-top: rem(100px);
 	padding-top: rem(150px);
     }
@@ -90,6 +93,9 @@
 	.sub-heading{
 	    font-size: rem(42px);
 	}
+    }
+    .benefit-box{
+	flex: 0 0 30%;
     }
 }
 @media (min-width: 1280px){
