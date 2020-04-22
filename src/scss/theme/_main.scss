@@ -98,7 +98,7 @@ html{
     }
 }
 .content-section{
-    padding: 1.5rem 0;
+    padding: 2rem 0;
 }
 .blue-rounded{
     padding-top: rem(70px);
@@ -156,6 +156,7 @@ html{
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    color: #000000;
     h4{
 
     }
@@ -178,6 +179,7 @@ html{
 .reviews{
     background: url(../img/reviews-bg.png) 0 0 repeat;
     position: relative;
+    padding: 3rem 0 0;
     &:before{
 	content: '';
 	position: absolute;
@@ -191,7 +193,55 @@ html{
 	border-color: #ffffff transparent transparent transparent;
 
     }
+    .row{
+	justify-content: space-around;
+    }
     h2{
 	color: #fff;
+	margin-bottom: 5rem;
+    }
+}
+.review-box{
+    max-width: rem(340px);
+    flex: 0 0 100%;
+    margin: 0 15px;
+    padding: rem(80px 30px 40px 30px);
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 6px 0 rgba(98, 98, 98, 0.17);
+    position: relative;
+    margin-bottom: 4rem;
+    .avatar{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid #f0f0f0;
+	background-color: #fff;
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.72);
+	img{
+	    border-radius: 50%;
+	    width: rem(115px);
+	    border: 1px solid #fff;
+	}
+    }
+    h6{
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 0;
+    }
+    p{
+	margin: 2rem 0 0;
+	font-size: rem(18px);
+	line-height: 1.33;
+	color: #3b3b3b;
+	span{
+	    color: $green;
+	    font-weight: 700;
+	    font-size: rem(36px);
+	    line-height: .5;
+	}
     }
 }

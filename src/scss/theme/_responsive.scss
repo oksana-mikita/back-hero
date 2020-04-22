@@ -9,7 +9,8 @@
 	    right: -25%;
 	}
     }
-    .benefit-box{
+    .benefit-box,
+    .review-box{
 	flex: 0 0 50%;
     }
 }
@@ -110,7 +111,8 @@
 	    font-size: rem(42px);
 	}
     }
-    .benefit-box{
+    .benefit-box,
+    .review-box{
 	flex: 0 0 30%;
     }
 }
@@ -130,6 +132,7 @@
     }
     .shoose-us{
 	background-image: url(../img/shoose-us.png);
+	padding: 0 0 4rem;
     }
 }
 
