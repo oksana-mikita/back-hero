@@ -47,6 +47,12 @@
 	margin-top: rem(100px);
 	padding-top: rem(150px);
     }
+    .shoose-us{
+	background-image: url(../img/shoose-us-md.jpg);
+    }
+    .reverse{
+	flex-direction: row-reverse;
+    }
 }
 @media (min-width: 992px){
     html{
@@ -111,6 +117,9 @@
     }
     .benefits{
 	background-image: url(../img/benefits-bg.jpg);
+    }
+    .shoose-us{
+	background-image: url(../img/shoose-us.jpg);
     }
 }
 
