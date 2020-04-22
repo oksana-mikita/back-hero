@@ -1,6 +1,27 @@
 html{
     font-size: 16px;
 }
+.bg-blue-1{
+    background-color: #00a8ec;
+    color: #fff;
+}
+.bg-blue-2{
+    background-color: #4cc0ee;
+    color: #fff;
+}
+.bg-blue-3{
+    background-color: #00a3d2;
+    color: #fff;
+}
+.mb-0{
+    margin-bottom: 0!important;
+}
+.mb-1{
+    margin-bottom: 1rem!important;
+}
+.mb-2{
+    margin-bottom: 2rem!important;
+}
 .text-center{
     text-align: center;
 }
@@ -97,5 +118,26 @@ html{
     }
     img{
 	margin-top: 2rem;
+    }
+}
+.benefits{
+    .row{
+	justify-content: space-around;
+    }
+}
+.benefit-box{
+    max-width: rem(340px);
+    border-radius: 9px;
+    margin: 0 15px;
+    padding: rem(40px 22px);
+    text-align: center;
+    h5{
+	margin-top: 1.5rem;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+    }
+    p{
+	font-size: rem(17px);
     }
 }
